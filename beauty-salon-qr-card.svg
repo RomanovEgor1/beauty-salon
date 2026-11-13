@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1320" viewBox="0 0 1080 1320">
+  <rect width="1080" height="1320" fill="#e8e1d1"/>
+  <rect x="34" y="34" width="1012" height="1252" rx="10" fill="none" stroke="#5e6249" stroke-width="2"/>
+  <path d="M540 74c-10 18-10 34 0 48 10-14 10-30 0-48Z" fill="#b96c70"/>
+  <path d="M516 99c11 1 19 6 24 16-12 1-20-4-24-16Zm48 0c-11 1-19 6-24 16 12 1 20-4 24-16Z" fill="#5e6249"/>
+  <text x="540" y="208" text-anchor="middle" fill="#27251f" font-family="Georgia,serif" font-size="62">Салон красоты</text>
+  <text x="540" y="263" text-anchor="middle" fill="#884c51" font-family="Arial,sans-serif" font-size="22" letter-spacing="5">КОПЕЙСК · КАЛИНИНА, 11Б</text>
+  <path d="M205 312H875" stroke="#b96c70" stroke-width="2"/>
+  <rect x="164" y="345" width="752" height="752" rx="8" fill="#fffdf8"/>
+  <image x="182" y="363" width="716" height="716" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA4QAAAOEAQMAAADDgG14AAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD+klEQVR4nO3bQZKbMBAFUHyCOQL3vxVH4ARWKrZQNwI8mcVYTtX7CwchRq+XXZIyTSIiIiIiIiIiIiIiIiIiIiIi8oaUPuvfd2udqJ/Eu2W6tS/v0zT//ffxLk9sWYhEIpFIJBKHiuthGNg0fdUq6lNd/ZHtae4ndrNEIpFIJBKJI8XyTDRQG5G/rGKXW8N27dWhACKRSCQSicRPEIM4PD0yPzePYgdpZxOJRCKRSCT+D2IeBnY+JBKJRCKRSPxA8ayAwyHZ410nTtcEkUgkEolE4nCxy9rYs5+lNVBnP12IRCKRSCQSR4rnVeyc6LHyInNa87KLIhKJRCKRSBwsXjZVefOoXgu6ZScaqPn5fD9MEIlEIpFIJA4SM1HyVefzziqvdMtErH44TCMSiUQikUgcIkbvlNmvw42gOsynYvfWT5X8rrIlV0EkEolEIpE4Qpz2TdV00m2FPScndouivdp6rO8bOiKRSCQSicRfFp9//Fxuw2orFYnhAzt0Vmc9VrnqrIhEIpFIJBLfI8aaj8RuURSQe6wgcisVBdxbUd+FSCQSiUQi8T3ilo6tw5joMp84P2SJRCKRSCQSf0nMW0ZfefXcVMUnc2uqans11eGyfyISiUQikUgcLtYGqtso2k109TS2e9qy9PUQiUQikUgkjhO71c+eshiZG7G0AuZXGJFIJBKJROIAMfdYpe0lddtIGbvnfiqypFKIRCKRSCQSt3Srd05XRd6siROs+m4n5rMsIpFIJBKJxCFiXTPYUolc1Gbnfqqz59Llu5MyIpFIJBKJxF8WK3Z5MrWrrC28LTfvF871XIZIJBKJRCLxXWJ3NPb6aUlO7BvdT+xLlkgkEolEIvGNYm6qtqOxGOb7QpGlHZItjcgtF5FIJBKJROIniPn2T2n2WT1TT5ST4S1PEIlEIpFIJA4Td+m6qK6f2m8Uxd3m7jb06xCJRCKRSCS+S4zOKoaltlLxVDM/6dgourfdoltupeo7IpFIJBKJxI8RsxNN1ZpKuR/YbP+8syISiUQikUh8g/iVV39xS2gur7K0DSUikUgkEonEkeK/VlEncmIbqeQzs+UnFJFIJBKJROKviaXPup9d9xtKy5O471e/tZOyuBtUrmwikUgkEonEd4lHIl9/XnNR+ZCsrnmrU9mOoohEIpFIJBIHi/Wv1v0w3sVTXS6wuCC0JSaIRCKRSCQSP1LsLgjVd/OTCGfXY+WfyxCJRCKRSCQOFjObc9w8KqmKrgAikUgkEonEweJhuJ2U5TOz8vwPX9tKj9WnxJY9QSQSiUQikThc7LKeTKz9d7GDVFoBFxNEIpFIJBKJg0QREREREREREREREREREREREfnv8wcNxMOhDJjdCwAAAABJRU5ErkJggg=="/>
+  <text x="540" y="1160" text-anchor="middle" fill="#27251f" font-family="Georgia,serif" font-size="37">Запишитесь онлайн</text>
+  <text x="540" y="1210" text-anchor="middle" fill="#5f5a4e" font-family="Arial,sans-serif" font-size="21">Наведите камеру телефона на QR-код</text>
+  <text x="540" y="1254" text-anchor="middle" fill="#884c51" font-family="Arial,sans-serif" font-size="18">romanovegor1.github.io/beauty-salon</text>
+</svg>
