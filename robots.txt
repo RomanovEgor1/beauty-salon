@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap: добавьте строку после публикации сайта на домене, например:
-# Sitemap: https://example.ru/sitemap.xml
+Sitemap: https://romanovegor1.github.io/beauty-salon/sitemap.xml

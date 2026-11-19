@@ -152,6 +152,8 @@ if (
     ".intro-strip",
     ".section-heading",
     ".service-card",
+    ".review-card",
+    ".review-links",
     ".visit-banner",
     ".contact-copy > *",
     ".contact-map",
@@ -159,7 +161,7 @@ if (
     ".price-list li",
     ".price-section > .button",
     ".next-service",
-    ".gallery-placeholder",
+    ".works-grid figure",
     ".site-footer > *"
   ];
 
@@ -236,4 +238,47 @@ if (
   );
 
   revealItems.forEach((element) => revealObserver.observe(element));
+}
+
+// Мобильные карусели: горизонтальные списки должны быть доступны и с клавиатуры.
+const carouselLists = [
+  { element: document.querySelector(".service-cards"), label: "services-title" },
+  { element: document.querySelector(".review-grid"), label: "reviews-title" },
+  { element: document.querySelector(".works-grid"), label: "works-gallery-title" }
+].filter((item) => item.element);
+const narrowQuery = window.matchMedia("(max-width: 580px)");
+
+const syncCarousels = () => {
+  carouselLists.forEach(({ element, label }) => {
+    if (narrowQuery.matches) {
+      element.setAttribute("tabindex", "0");
+      element.setAttribute("role", "group");
+      element.setAttribute("aria-labelledby", label);
+    } else {
+      element.removeAttribute("tabindex");
+      element.removeAttribute("role");
+      element.removeAttribute("aria-labelledby");
+    }
+  });
+};
+
+carouselLists.forEach(({ element }) => {
+  element.addEventListener("keydown", (event) => {
+    if (event.key !== "ArrowRight" && event.key !== "ArrowLeft") return;
+    const card = element.firstElementChild;
+    if (!card) return;
+    const step = card.getBoundingClientRect().width + 12;
+    element.scrollBy({
+      left: event.key === "ArrowRight" ? step : -step,
+      behavior: reduceMotion.matches ? "auto" : "smooth"
+    });
+    event.preventDefault();
+  });
+});
+
+syncCarousels();
+if (typeof narrowQuery.addEventListener === "function") {
+  narrowQuery.addEventListener("change", syncCarousels);
+} else if (typeof narrowQuery.addListener === "function") {
+  narrowQuery.addListener(syncCarousels);
 }
